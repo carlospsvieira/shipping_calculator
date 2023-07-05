@@ -21,9 +21,9 @@
                 "uri": "file:///home/carlos/trybe/csharp/csharp-026-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
                   "startLine": 15,
-                  "startColumn": 19,
+                  "startColumn": 17,
                   "endLine": 15,
-                  "endColumn": 41
+                  "endColumn": 39
                 }
               }
             }
@@ -41,10 +41,10 @@
               "resultFile": {
                 "uri": "file:///home/carlos/trybe/csharp/csharp-026-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
-                  "startLine": 30,
-                  "startColumn": 19,
-                  "endLine": 30,
-                  "endColumn": 42
+                  "startLine": 31,
+                  "startColumn": 17,
+                  "endLine": 31,
+                  "endColumn": 40
                 }
               }
             }
