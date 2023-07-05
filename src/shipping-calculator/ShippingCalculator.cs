@@ -14,7 +14,16 @@ public class ShippingCalculator
     // 1 - Calcular o Frete por preço do pedido na função `CalculateShippingPrice`.
     public double calculateShippingPrice(double orderPrice)
     {
-        throw new NotImplementedException();
+        switch (orderPrice) {
+            case <= 50:
+                return 25;
+            case <= 100:
+                return 20;
+            case <= 200:
+                return 15;
+            default:
+                return 0; 
+        }
     }
 
     // 2 - Calcular o Frete por peso na função `CalculateShippingWeight`

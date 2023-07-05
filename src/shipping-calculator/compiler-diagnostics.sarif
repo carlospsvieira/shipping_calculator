@@ -4,11 +4,11 @@
   "runs": [
     {
       "tool": {
-        "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "4.1.0.0",
-        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
-        "semanticVersion": "4.1.0",
-        "language": "pt-BR"
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.0.0.0",
+        "fileVersion": "4.0.1-1.22181.2 (487283bc)",
+        "semanticVersion": "4.0.0",
+        "language": "en-US"
       },
       "results": [
         {
@@ -18,33 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///Users/rahelund/Projects/Trybe/Projetos/acc-elective-csharp-0x-project-shipping-calculator/src/shipping-calculator/ShippingCalculator.cs",
+                "uri": "file:///home/carlos/trybe/csharp/csharp-026-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
-                  "startLine": 14,
+                  "startLine": 15,
                   "startColumn": 19,
-                  "endLine": 14,
+                  "endLine": 15,
                   "endColumn": 41
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "CA1822",
-          "level": "note",
-          "message": "Member 'calculateShippingWeight' does not access instance data and can be marked as static",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///Users/rahelund/Projects/Trybe/Projetos/acc-elective-csharp-0x-project-shipping-calculator/src/shipping-calculator/ShippingCalculator.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 23,
-                  "endLine": 28,
-                  "endColumn": 46
                 }
               }
             }
