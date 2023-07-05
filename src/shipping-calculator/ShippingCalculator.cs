@@ -11,7 +11,7 @@ public class ShippingCalculator
     /// <returns>The shipping price value (integer type), following the exercise logic </returns>
     /// <exception cref="ArgumentException">If the order price be equal to or less than zero</exception>
 
-    // 1 - Calcular o Frete por preço do pedido na função `CalculateShippingPrice`
+    // 1 - Calcular o Frete por preço do pedido na função `CalculateShippingPrice`.
     public double calculateShippingPrice(double orderPrice)
     {
         throw new NotImplementedException();
