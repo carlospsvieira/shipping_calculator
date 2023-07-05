@@ -31,17 +31,15 @@ public class ShippingCalculator
     {
         switch (weight) {
             case <= 1.5:
-                return 3.80;
+                return 3.8;
             case <= 3.5:
-                return 5.70;
-            case <= 7.0:
-                return 7.20;
-            case <= 10.0:
-                return 9.40;
-            case > 10.0:
-                return 1.90;
+                return 5.7;
+            case <= 7:
+                return 7.2;
+            case <= 10:
+                return 9.4;
             default:
-                return 0; 
+                return weight * 1.9; 
         }
     }
 

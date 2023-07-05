@@ -14,16 +14,16 @@
         {
           "ruleId": "CA1822",
           "level": "note",
-          "message": "Member 'calculateShippingWeight' does not access instance data and can be marked as static",
+          "message": "Member 'calculateShippingPrice' does not access instance data and can be marked as static",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///home/carlos/trybe/csharp/csharp-026-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
-                  "startLine": 30,
+                  "startLine": 15,
                   "startColumn": 19,
-                  "endLine": 30,
-                  "endColumn": 42
+                  "endLine": 15,
+                  "endColumn": 41
                 }
               }
             }
@@ -35,16 +35,16 @@
         {
           "ruleId": "CA1822",
           "level": "note",
-          "message": "Member 'calculateShippingPrice' does not access instance data and can be marked as static",
+          "message": "Member 'calculateShippingWeight' does not access instance data and can be marked as static",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///home/carlos/trybe/csharp/csharp-026-csharp-exercicio-calculadora-de-frete/src/shipping-calculator/ShippingCalculator.cs",
                 "region": {
-                  "startLine": 15,
+                  "startLine": 30,
                   "startColumn": 19,
-                  "endLine": 15,
-                  "endColumn": 41
+                  "endLine": 30,
+                  "endColumn": 42
                 }
               }
             }
